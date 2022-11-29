@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://1-two-gold.vercel.app/"
+      "destination": "https://1-two-gold.vercel.app/:match*"
     }
   ]
 }
